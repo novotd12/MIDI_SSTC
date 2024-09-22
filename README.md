@@ -9,7 +9,7 @@ SSTC has STM32F030 as main conroller. It controls power voltage and enabled/disa
 
 Bluetooth name: SSTC_SNxx (xx serial number)
 
-Bluetooth pswd: 7390
+Bluetooth PIN: 7390
 
 
 
@@ -33,11 +33,11 @@ This SSTC has 2 switches for mode setting and 2 POTs for manual mode setting.
 
 3-way switch on left swithes between modes:
 
-left: Interruper based MIDI
+left: Interrupter based MIDI (single note)
 
 mid:  Manual mode
 
-right:CW modulated MIDI
+right:CW modulated MIDI (max 4 notes at a time)
 
 
 2-way switch on right:

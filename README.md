@@ -6,8 +6,11 @@ After successfully used on CTU FEE presentations, commercial journey has begun..
 SSTC has STM32F030 as main conroller. It controls power voltage and enabled/disables power self-oscillating circuit. STM32 is performing MIDI note synthesis from two possible input sources - bluetooth VCP and traditional 5-pin MIDI. This can be done by 2 methods - modulation of power voltage by buck converter - one mode. And by enabling/disabling power oscillator in rythm of played note - second mode. In "CW" mode is also possibility to play multiple notes at ones while in interrupter mode only one note at a time. Disadvantage of CW mode is high power consumption and thus power losses causing overheating after few minutes.
 
 
+
 Bluetooth name: SSTC_SNxx (xx serial number)
+
 Bluetooth pswd: 7390
+
 
 
 Tesla Coil is for safety reasons powered by external 36V/5A SMPS, so no lethal voltage is available anywhere.

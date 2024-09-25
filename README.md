@@ -3,7 +3,7 @@ After being successfully used in CTU FEE presentations, a few more pieces have b
 
 ![image](https://github.com/user-attachments/assets/eb60aef6-0363-419b-b6fb-f86851f63534) ![image](https://github.com/user-attachments/assets/a66bd5f8-7536-4858-8648-89b4dbd509a4) ![image](https://github.com/user-attachments/assets/032f86a3-a958-4ab6-b5a0-a5657ae5ff10)
 
-The SSTC uses an STM32F030 as the main controller. It controls the power voltage and enables/disables the power self-oscillating circuit. The STM32 performs MIDI note synthesis from two possible input sources: Bluetooth VCP and traditional 5-pin MIDI. This can be done in two ways: modulation of the power voltage by a buck converter (first mode - CW), and enabling/disabling the power oscillator in the rhythm of the played note (second mode - INT). In 'CW' mode, it is also possible to play multiple notes at once, while in interrupter mode, only one note can be played at a time. The disadvantage of CW mode is high power consumption, which causes power losses and overheating after a few minutes. 
+The SSTC uses an STM32F030 as the main controller. It controls the power voltage and enables/disables the power self-oscillating circuit. The STM32 performs MIDI note synthesis from two possible input sources: Bluetooth VCP and traditional 5-pin MIDI. This can be done in two ways: modulation of the power voltage by a buck converter (first mode - CW), and enabling/disabling the power oscillator in the rhythm of the played note (second mode - INT). In 'CW' mode, it is also possible to play multiple notes at once, while in interrupter mode, only one note can be played at a time. The disadvantage of CW mode is high power consumption, which causes power losses and overheating after a few minutes.
 
 
 Bluetooth name: SSTC_SNxx (xx serial number)
@@ -15,9 +15,13 @@ For using a MIDI keyboard connected to a notebook via Bluetooth, the useful tool
 Since the keyboard is connected via USB and is susceptible to electromagnetic noise, the PC and keyboard should be placed at least 2-3 meters away from the Tesla coil to avoid interference."
 
 
-The Tesla coil is, for safety reasons, powered by an external 36V/5A SMPS, ensuring that no lethal voltage is present anywhere.
+**The Tesla coil is, for safety reasons, powered by an external 36V/5A SMPS, ensuring that no lethal voltage is present anywhere. However, there are two important exceptions to keep in mind!
 
-SSTCs, in general, do not tolerate ground strikes well (sparks hitting a grounded object or any object instead of the air). If you touch the ends of the sparks or about half of their length, it should be okay, but directly touching the toroid electrode with a screwdriver or a finger can, and most likely will, lead to the destruction of the Tesla coil.
+The electric field intensity and magnetic induction near the Tesla coil are enormous, which can lead to the destruction of any nearby electronics (phones, PCs, watches, etc.). 
+Additionally, there is still a risk for humans, particularly for those with heart conditions, and even more so for individuals with pacemakers.
+**
+
+**SSTCs, in general, do not tolerate ground strikes well (sparks hitting a grounded object or any object instead of the air). If you touch the ends of the sparks or about half of their length, it should be okay, but directly touching the toroid electrode with a screwdriver or a finger can, and most likely will, lead to the destruction of the Tesla coil.**
 
 Video in action:
 

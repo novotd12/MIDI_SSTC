@@ -15,11 +15,11 @@ For using a MIDI keyboard connected to a notebook via Bluetooth, the useful tool
 Since the keyboard is connected via USB and is susceptible to electromagnetic noise, the PC and keyboard should be placed at least 2-3 meters away from the Tesla coil to avoid interference."
 
 
-**The Tesla coil is, for safety reasons, powered by an external 36V/5A SMPS, ensuring that no lethal voltage is present anywhere. However, there are two important exceptions to keep in mind!
+**The Tesla coil is, for safety reasons, powered by an external 36V/5A SMPS, ensuring that no lethal voltage is present anywhere. However, there are two important exceptions to keep in mind!**
 
-The electric field intensity and magnetic induction near the Tesla coil are enormous, which can lead to the destruction of any nearby electronics (phones, PCs, watches, etc.). 
-Additionally, there is still a risk for humans, particularly for those with heart conditions, and even more so for individuals with pacemakers.
-**
+**The electric field intensity and magnetic induction near the Tesla coil are enormous, which can lead to the destruction of any nearby electronics (phones, PCs, watches, etc.). **
+**Additionally, there is still a risk for humans, particularly for those with heart conditions, and even more so for individuals with pacemakers.**
+
 
 **SSTCs, in general, do not tolerate ground strikes well (sparks hitting a grounded object or any object instead of the air). If you touch the ends of the sparks or about half of their length, it should be okay, but directly touching the toroid electrode with a screwdriver or a finger can, and most likely will, lead to the destruction of the Tesla coil.**
 

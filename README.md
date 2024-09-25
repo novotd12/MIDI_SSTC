@@ -14,6 +14,8 @@ For using a MIDI keyboard connected to a notebook via Bluetooth, the useful tool
 
 Since the keyboard is connected via USB and is susceptible to electromagnetic noise, the PC and keyboard should be placed at least 2-3 meters away from the Tesla coil to avoid interference."
 
+For optimal spark performance, it is best to place the SSTC on the floor or on a grounded underlay.
+
 **! CAUTIONS !**
 
 **The Tesla coil is, for safety reasons, powered by an external 36V/5A SMPS, ensuring that no lethal voltage is present anywhere. However, there are two important exceptions to keep in mind!**

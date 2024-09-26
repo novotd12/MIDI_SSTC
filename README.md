@@ -42,6 +42,7 @@ This SSTC has 2 switches for mode setting and 2 POTs for manual mode setting (fr
 ![SSTC's controls](Photos/SSTC_control.png)
 
 
+
 3-way switch on left swithes between modes:
 
 left: Interrupter based MIDI (single note)
@@ -51,6 +52,7 @@ mid:  Manual mode
 right:CW modulated MIDI (max 4 notes at a time)
 
 
+
 2-way switch on right:
 
 left:  MIDI INPUT
@@ -58,6 +60,7 @@ left:  MIDI INPUT
 right: BLUETOOTH INPUT
 
 (for manual mode it also switches between POTs input and bluetooth input)
+
 
 
 There are 3 LED indicators:

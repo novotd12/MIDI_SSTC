@@ -37,7 +37,7 @@ While its electronics:
 ![SSTC's electronics from TOP](Photos/SSTC_electronics.png) ![SSTC's electronics from BOTTOM](Photos/SSTC_electronics2.png)
 ![SSTC overview](Photos/diagram.jpg)
 
-This SSTC has 2 switches for mode setting and 2 POTs for manual mode setting (freq 1-50 Hz and duty-cycle 0-15 % with 15 ms maximum pulse length).
+This SSTC has 2 switches for mode setting and 2 POTs for manual mode setting (freq 1-50 Hz and duty-cycle 0-15 % with 15 ms maximum pulse length). When one of the POTs is turned fully right, no sparks are generated - by turning both little bit from right position power stage is activated.
 
 ![SSTC's controls](Photos/SSTC_control.png)
 
@@ -60,7 +60,6 @@ left:  MIDI INPUT
 right: BLUETOOTH INPUT
 
 (for manual mode it also switches between POTs input and bluetooth input)
-
 
 
 There are 3 LED indicators:

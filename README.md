@@ -35,7 +35,7 @@ https://youtube.com/shorts/vosLOoO7MRc
 While its electronics:
 
 ![SSTC's electronics from TOP](Photos/SSTC_electronics.png) ![SSTC's electronics from BOTTOM](Photos/SSTC_electronics2.png)
-
+![SSTC overview](Photos/diagram.jpg)
 
 This SSTC has 2 switches for mode setting and 2 POTs for manual mode setting (freq 1-50 Hz and duty-cycle 0-15 % with 15 ms maximum pulse length).
 

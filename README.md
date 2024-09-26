@@ -10,9 +10,9 @@ Bluetooth name: SSTC_SNxx (xx serial number)
 
 Bluetooth PIN: 1856
 
-For using a MIDI keyboard connected to a notebook via Bluetooth, the useful tool 'Hairless MIDI' is recommended: https://projectgus.github.io/hairless-midiserial/. It allows for a simple connection between the MIDI keyboard and the VCP created by Bluetooth. The number of the COM port assigned to the Bluetooth device can be found (on Windows) in Bluetooth settings -> Other settings -> Bluetooth -> COM ports (outgoing port).
+For using a MIDI keyboard connected to a notebook via Bluetooth, the useful tool 'Hairless MIDI' is recommended: https://projectgus.github.io/hairless-midiserial/. It allows for a simple connection between the MIDI keyboard and the VCP created by Bluetooth. The number of the COM port assigned to the Bluetooth device can be found (on Windows) in Bluetooth settings -> Other settings for Bluetooth -> COM ports (outgoing port).
 
-Since the keyboard is connected via USB and is susceptible to electromagnetic noise, the PC and keyboard should be placed at least 2-3 meters away from the Tesla coil to avoid interference."
+Since the keyboard is connected via USB and is susceptible to electromagnetic noise, the PC and keyboard should be placed at least 2-3 meters away from the Tesla coil to avoid interference.
 
 For optimal spark performance, it is best to place the SSTC on the floor or on a grounded underlay.
 

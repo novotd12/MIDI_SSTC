@@ -1,7 +1,7 @@
 This project began as building a small solid-state Tesla coil just for fun. 
 After being successfully used in CTU FEE presentations, a few more pieces have been built...
 
-![image](https://github.com/user-attachments/assets/eb60aef6-0363-419b-b6fb-f86851f63534) ![image](https://github.com/user-attachments/assets/a66bd5f8-7536-4858-8648-89b4dbd509a4) ![image](https://github.com/user-attachments/assets/032f86a3-a958-4ab6-b5a0-a5657ae5ff10)
+![SSTC overview](Photos/SSTC_1.png) ![Some sparks](Photos/SSTC_sparks.png) ![Sparks to finger](Photos/SSTC_sparks_finger.png)
 
 The SSTC uses an STM32F030 as the main controller. It controls the power voltage and enables/disables the power self-oscillating circuit. The STM32 performs MIDI note synthesis from two possible input sources: Bluetooth VCP and traditional 5-pin MIDI. This can be done in two ways: modulation of the power voltage by a buck converter (first mode - CW), and enabling/disabling the power oscillator in the rhythm of the played note (second mode - INT). In 'CW' mode, it is also possible to play multiple notes at once, while in interrupter mode, only one note can be played at a time. The disadvantage of CW mode is high power consumption, which causes power losses and overheating after a few minutes.
 

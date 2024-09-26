@@ -59,6 +59,11 @@ right: BLUETOOTH INPUT
 
 (for manual mode it also switches between POTs input and bluetooth input)
 
+There are 3 LED indicators:
+Green  - fast blinking: bluetooth ready to connect; slow blinking - bluetooth connected
+Orange - sparks burst (power stage active)
+Red    - overheating
+
 
 
 

@@ -34,12 +34,12 @@ https://youtube.com/shorts/vosLOoO7MRc
 
 While its electronics:
 
-![image](https://github.com/user-attachments/assets/60e506f0-7798-44bb-a88b-fc2842600a09) ![image](https://github.com/user-attachments/assets/e2a8e370-b9ba-4dac-a9f7-66d4ad19270d)
+![SSTC's electronics from TOP](Photos/SSTC_electronics.png) ![SSTC's electronics from BOTTOM](Photos/SSTC_electronics2.png)
 
 
 This SSTC has 2 switches for mode setting and 2 POTs for manual mode setting (freq 1-50 Hz and duty-cycle 0-15 % with 15 ms maximum pulse length).
 
-![image](https://github.com/user-attachments/assets/68e4f71e-f0cf-4f78-bfaa-ac3ca1352f65)
+![SSTC's controls](Photos/SSTC_control.png)
 
 
 3-way switch on left swithes between modes:
